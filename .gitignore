@@ -1,0 +1,30 @@
+# venv
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files 
+ml/data/
+ml/models/species_identifier_model.pth
+ml/models/species_identifier_model_v2.pth
+
+# Terraform state files
+infrastructure/terraform.tfstate
+infrastructure/terraform.tfstate.backup
+infrastructure/.terraform/
+pass
+
+# VS Code specific files
+.vscode 
+
+# IDE and OS files
+.idea/
+*.DS_Store
+
+# Python files
+.env
+.python_packages
+

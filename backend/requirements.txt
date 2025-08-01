@@ -1,0 +1,7 @@
+azure-functions
+torch
+torchvision
+Pillow
+numpy
+azure-storage-blob
+timm
